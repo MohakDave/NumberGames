@@ -1,8 +1,5 @@
 import java.util.*;
 import java.util.Random;
-
- // Compiler version JDK 11.0.2
-
  class NumberGameMain
  {
    int random=0;
@@ -68,9 +65,11 @@ random=Integer.parseInt(ran);
       int count1=0;
       int[] numArray1 = {digit[1],digit[2],digit[3],digit[4]};
   int[] numArray2 = {digit[5],digit[6],digit[7],digit[8]};
-  // Outer loop
-  for(int i = 0; i < numArray1.length; i++){
-   for(int j = 0; j < numArray2.length; j++){// inner loop
+  
+  for(int i = 0; i < numArray1.length; i++)
+  {
+   for(int j = 0; j < numArray2.length; j++)
+   {
     if(numArray1[i] == numArray2[j]){
      count1++;
      break;
