@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.Random;
- class NumberGameMain
+ class NumberGame
  {
    int random=0;
    public void Number()
@@ -108,7 +108,7 @@ random=Integer.parseInt(ran);
     }
     public static void main()
     {
-        NumberGameMain obj = new NumberGameMain();
+        NumberGame obj = new NumberGame();
         obj.Number();
     }
 }
