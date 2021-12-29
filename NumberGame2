@@ -1,8 +1,5 @@
 import java.util.*;
-
- // Compiler version JDK 11.0.2
-
- class Dcoder
+ class NumberGame2
  {
    public static void main(String args[])
    { 
