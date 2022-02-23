@@ -1,13 +1,14 @@
 import java.util.*;
 import java.util.Random;
- class NumberGame
+class NumberGameMain
  {
-   int random=0;
-   public void Number()
+   public static void main(String args[])
    { 
+       
+    int random=0;
     System.out.println("\t\t\t\t\t\t\t\t\t\t\t\tThis game is made by Mohak");
     System.out.println("*If you enter 2222 and if 2 is there in answer then it will show 4 right numbers");
-    System.out.println("\n\nIf you want to pass then type '0'");
+    System.out.println("\n\nIf you want to know the answer then type '0'");
     Random r = new Random();
     int digit[]= new int[10];
     int temp3= random;
@@ -77,7 +78,7 @@ random=Integer.parseInt(ran);
    }
 }
       
-      System.out.println("Right number: "+count1);
+      System.out.println("Right digits: "+count1);
       int count2=0,count3=0,count4=0,count5=0;
       if(digit[5]==digit[1])
       {
@@ -106,9 +107,5 @@ random=Integer.parseInt(ran);
       }
     }
     }
-    public static void main()
-    {
-        NumberGame obj = new NumberGame();
-        obj.Number();
-    }
-}
+    
+ }
